@@ -1,9 +1,12 @@
 :root{
-  --bg: rgb(13, 13, 58);
-  --text: white;
-  --textSoft: #e5e5e5;
-  --btn: #3673fd;
-}
+    --bg: #0d0c22;
+    --bgSoft: #2d2b42;
+    --text: white;
+    --textSoft: #e5e5e5;
+    --btn: #3673fd;
+  }
+  
+
 *{
   margin: 0;
   padding: 0;
@@ -19,7 +22,7 @@ a{
   color: white;
 }
 .container{
-  width: 1036px;
+  width: 100vw;
   margin: auto;
   background-color: var(--bg);
   padding-left: 50px;
